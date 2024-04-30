@@ -1,0 +1,14 @@
+<h2> Inserisci i dettagli del film </h2>
+<form action="/AggiungiFilm" method="get">
+    <label for="Titolo">Titolo :</label><br>
+    <input type="text" id="Titolo" name="Titolo"><br>
+
+    <label for="Anno">Anno di produzione :</label><br>
+    <input type="text" id="Anno" name="Anno"><br>
+
+    <label for="Genere">Genere :</label><br>
+    <input type="text" id="Genere" name="Genere"><br>
+
+    <input type="submit" value="Invia" asp-controller="Cinema" asp-action="AggiungiFilm">
+
+</form>

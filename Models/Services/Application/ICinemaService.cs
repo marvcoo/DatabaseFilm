@@ -10,5 +10,6 @@ namespace DatabaseFilm.Models.Services.Application
     {
         List<CinemaViewModel> GetCinemas();
         CinemaDetailViewModel GetCinema(int id);
+        void AddCinema(string Titolo, string Anno, string Genere);
     }
 }

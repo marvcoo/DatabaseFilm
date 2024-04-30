@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using DatabaseFilm.Models.Services.Application;
 using DatabaseFilm.Models.ViewModels;
+using DatabaseFilm.Models;
 
 
 
@@ -28,6 +29,17 @@ namespace DatabaseFilm.Controllers
             CinemaDetailViewModel viewModel = CinemaService.GetCinema(id);
             ViewData["Title"] = viewModel.Titolo;
             return View(viewModel);
+        }
+        public IActionResult Aggiungi()
+        {
+            return View();
+        }
+
+        public IActionResult AggiungiFilm(string Titolo, string Anno, string Genere)
+        {
+            CinemaService.AddCinema(Titolo, Anno, Genere);
+            // La view non funziona perché il cinema non é di tipo CinemaViewModel fixo piú in la -Giovanni
+            return View("../Cinema/Index");
         }
     }
 }
