@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Admin\\Desktop\\EsercizioFilm\\DatabaseFilm\\DatabaseFilm.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Admin\\Desktop\\EsercizioFilm\\DatabaseFilm\\DatabaseFilm.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Desktop\\EsercizioFilm\\DatabaseFilm\\obj\\",
+=======
+    "C:\\Users\\Admin\\Desktop\\DatabaseFilm\\DatabaseFilm.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Admin\\Desktop\\DatabaseFilm\\DatabaseFilm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\DatabaseFilm\\DatabaseFilm.csproj",
+        "projectName": "DatabaseFilm",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\DatabaseFilm\\DatabaseFilm.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\DatabaseFilm\\obj\\",
+>>>>>>> 09c84cfdde8267f141672e43aded545245f69f5c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

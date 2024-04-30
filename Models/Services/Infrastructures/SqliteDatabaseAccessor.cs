@@ -8,6 +8,10 @@ namespace DatabaseFilm.Models.Services.Infrastructures
 {
     public class SqliteDatabaseAccessor : IDatabaseAccessor
     {
+<<<<<<< HEAD
+        public DataSet Query(string query)
+        {
+=======
         public DataSet Query(FormattableString formattableQuery)
         {
             var queryArguments = formattableQuery.GetArguments();
@@ -20,11 +24,21 @@ namespace DatabaseFilm.Models.Services.Infrastructures
             }
             string query = formattableQuery.ToString();
 
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
             using(var conn = new SqliteConnection("Data Source=Data/cinema.db"))
             { 
                 conn.Open();
                 using(var cmd=new SqliteCommand(query, conn))
                 { 
+<<<<<<< HEAD
+                    using(var reader = cmd.ExecuteReader())
+                    { 
+                        var dataSet = new DataSet();
+                        dataSet.EnforceConstraints=false;
+                        var dataTable= new DataTable();
+                        dataSet.Tables.Add(dataTable);
+                        dataTable.Load(reader);
+=======
                     cmd.Parameters.AddRange(sqliteParameters);
 
                     using(var reader = cmd.ExecuteReader())
@@ -38,6 +52,7 @@ namespace DatabaseFilm.Models.Services.Infrastructures
                             dataTable.Load(reader);
                         } while (!reader.IsClosed);
 
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                         return dataSet;
                     }
                 }
