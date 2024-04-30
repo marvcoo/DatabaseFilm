@@ -69,7 +69,11 @@ using DatabaseFilm.Models.ViewModels;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 726, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb82824bd55543fa8b7f51467bbb7c85", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "612a6863a6fb4365b44554450f24c401", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                 BeginContext(41, 117, true);
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>");
                 EndContext();
@@ -90,7 +94,11 @@ using DatabaseFilm.Models.ViewModels;
     ");
                 EndContext();
                 BeginContext(710, 42, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4f626280b2e44e5aa06c6a444dce0105", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0a742aa3da2c400b9233a044c636740c", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -124,12 +132,20 @@ using DatabaseFilm.Models.ViewModels;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(765, 1571, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8388bea1320d4690a834fa4b5050c516", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5872f6f8e7a04cb2ad09622f7c63783a", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                 BeginContext(771, 71, true);
                 WriteLiteral("\r\n   <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\r\n    ");
                 EndContext();
                 BeginContext(842, 44, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1737f52aeacf42fcb23fd945389a4473", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c9522f0d720c426b9ac44b3794a57cb3", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -156,7 +172,11 @@ using DatabaseFilm.Models.ViewModels;
                         ");
                 EndContext();
                 BeginContext(1247, 70, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aedc545b8f994074982dbdbf2d646eed", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a36a03ba7844ebcb230bd8d6c69f7c6", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                     BeginContext(1309, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -181,7 +201,11 @@ using DatabaseFilm.Models.ViewModels;
                 WriteLiteral("\r\n                    </li>\r\n                    <li class=\"nav-item active\">\r\n                        ");
                 EndContext();
                 BeginContext(1420, 74, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cfbd584453a4226b96aab54b3c2b09d", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc6124cdff4046728cab31b6a7adae23", async() => {
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
                     BeginContext(1484, 6, true);
                     WriteLiteral("Cinema");
                     EndContext();

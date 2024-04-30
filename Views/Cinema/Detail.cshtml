@@ -1,0 +1,39 @@
+@model CinemaDetailViewModel
+<section class="course-info">
+    <div class="row">
+        <div class="col-md-9">
+            <h1>@Model.Titolo</h1>
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <a href="#" class="btn btn-warning btn-lg btn-block subscribe-course">Iscriviti</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <p>@Model.Descrizione</p>
+        </div>
+        <div class="col-md-3">
+            <aside>
+                <author>@Model.Regista</author>
+                <img src="@Model.ImgPath" class="img-fluid course-image" alt="@Model.Titolo">
+            </aside>
+        </div>
+    </div>
+</section>
+
+<section class="course-lessons">
+	<h2>Attori (@Model.Attori.Count)</h2>
+	@foreach (var attore in Model.Attori)
+	{
+	<hr>
+	<div class="row">
+		<div class="col-md-9 d-flex align-items-center">
+		    <a href="#">@attore.Nome</a>
+		</div>
+        <div class="col-md-9 d-flex align-items-center">
+		    <a href="#">@attore.AnnoNascita</a>
+		</div>
+	</div>
+	}
+    <hr>
+</section>

@@ -25,6 +25,7 @@ C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.dll
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.pdb
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.csproj.CopyComplete
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\Razor\Views\Cinema\Index.g.cshtml.cs
+<<<<<<< HEAD
 C:\Users\Admin\Desktop\DatabaseFilm\bin\Debug\netcoreapp2.1\DatabaseFilm.deps.json
 C:\Users\Admin\Desktop\DatabaseFilm\bin\Debug\netcoreapp2.1\DatabaseFilm.runtimeconfig.json
 C:\Users\Admin\Desktop\DatabaseFilm\bin\Debug\netcoreapp2.1\DatabaseFilm.runtimeconfig.dev.json
@@ -52,3 +53,6 @@ C:\Users\Admin\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.Views.p
 C:\Users\Admin\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.dll
 C:\Users\Admin\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.pdb
 C:\Users\Admin\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.csproj.CopyComplete
+=======
+C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\Razor\Views\Cinema\Detail.g.cshtml.cs
+>>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
