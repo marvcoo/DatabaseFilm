@@ -70,10 +70,14 @@ using DatabaseFilm.Models.ViewModels;
             EndContext();
             BeginContext(35, 726, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb82824bd55543fa8b7f51467bbb7c85", async() => {
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "612a6863a6fb4365b44554450f24c401", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dbba53c5e94e4b51bcfaddba0fad4434", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                 BeginContext(41, 117, true);
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>");
                 EndContext();
@@ -95,10 +99,14 @@ using DatabaseFilm.Models.ViewModels;
                 EndContext();
                 BeginContext(710, 42, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4f626280b2e44e5aa06c6a444dce0105", async() => {
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0a742aa3da2c400b9233a044c636740c", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "483e2c468aa846a8b8fd98b5b352f9e6", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -133,19 +141,27 @@ using DatabaseFilm.Models.ViewModels;
             EndContext();
             BeginContext(765, 1571, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8388bea1320d4690a834fa4b5050c516", async() => {
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5872f6f8e7a04cb2ad09622f7c63783a", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "934ffdbed3a44a338cf95c1342cf9b05", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                 BeginContext(771, 71, true);
                 WriteLiteral("\r\n   <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\r\n    ");
                 EndContext();
                 BeginContext(842, 44, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1737f52aeacf42fcb23fd945389a4473", async() => {
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c9522f0d720c426b9ac44b3794a57cb3", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ad442a8cfc4e46dfbe554af710f40dc1", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -173,10 +189,14 @@ using DatabaseFilm.Models.ViewModels;
                 EndContext();
                 BeginContext(1247, 70, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aedc545b8f994074982dbdbf2d646eed", async() => {
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a36a03ba7844ebcb230bd8d6c69f7c6", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba5258d288844a64a512f1759e596f02", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                     BeginContext(1309, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -202,10 +222,14 @@ using DatabaseFilm.Models.ViewModels;
                 EndContext();
                 BeginContext(1420, 74, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cfbd584453a4226b96aab54b3c2b09d", async() => {
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc6124cdff4046728cab31b6a7adae23", async() => {
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "37741e1f4af14eb0a5c4d96294f1144e", async() => {
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
                     BeginContext(1484, 6, true);
                     WriteLiteral("Cinema");
                     EndContext();

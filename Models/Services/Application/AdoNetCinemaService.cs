@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DatabaseFilm.Models.Services.Infrastructures;
 using System.Data;
+using Microsoft.Data.Sqlite;
 
 using DatabaseFilm.Models.ViewModels;
 
@@ -59,6 +60,28 @@ namespace DatabaseFilm.Models.Services.Application
             }
             return cinemaDetailViewModel;
         }
+<<<<<<< HEAD
 >>>>>>> e6deb95081e9a60508a572c658882f1cd8ee3f6e
+=======
+
+        public void AddCinema(string Titolo, string Anno, /*string Regista,*/ string Genere)
+        {
+
+            using(SqliteConnection conn = new SqliteConnection("Data Source=Data/cinema.db"))
+            {
+                conn.Open();
+                string query = @"INSERT INTO film (Titolo, AnnoProduzione, Regista, Genere)  
+                VALUES (@Titolo, @AnnoProduzione, @Regista, @Genere)"; 
+                SqliteCommand cmd = new SqliteCommand(query, conn);
+                // cmd.Parameters.AddWithValue("@CodFilm", 231);
+                cmd.Parameters.AddWithValue("@Titolo", Titolo);
+                cmd.Parameters.AddWithValue("@AnnoProduzione", Convert.ToInt32(Anno));
+                cmd.Parameters.AddWithValue("@Regista", 1);
+                cmd.Parameters.AddWithValue("@Genere", Genere);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+>>>>>>> efed80331ea95d1f61b1af0d66c8ff443b930d02
     }
 }
