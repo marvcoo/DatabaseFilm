@@ -98,7 +98,7 @@ WriteAttributeValue("", 206, cinema.ImgPath, 206, 15, false);
             WriteLiteral("</author>\r\n        </div>\r\n    <div class=\"col-md-2 d-flex align-items-center\">\r\n        ");
             EndContext();
             BeginContext(457, 94, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "310f540a46fd4581ad2cf4a5f82d53e9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7dd64cc7812940d0a86175e382789221", async() => {
                 BeginContext(538, 9, true);
                 WriteLiteral("Dettaglio");
                 EndContext();

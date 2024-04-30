@@ -7,6 +7,6 @@ namespace DatabaseFilm.Models.Services.Infrastructures
 {
     public interface IDatabaseAccessor // interfaccia che rappresenta il servizio infrastrutturale
     {
-        DataSet Query(string query); // metodo che eseguira una query select passata come parametro
+        DataSet Query(FormattableString query); // metodo che eseguira una query select passata come parametro
     }
 }

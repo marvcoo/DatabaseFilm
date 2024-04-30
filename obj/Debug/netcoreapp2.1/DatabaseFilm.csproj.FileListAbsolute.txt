@@ -25,3 +25,4 @@ C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.dll
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.pdb
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\DatabaseFilm.csproj.CopyComplete
 C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\Razor\Views\Cinema\Index.g.cshtml.cs
+C:\Users\giova\Desktop\DatabaseFilm\obj\Debug\netcoreapp2.1\Razor\Views\Cinema\Detail.g.cshtml.cs

@@ -25,7 +25,9 @@ namespace DatabaseFilm.Controllers
         }
         public IActionResult Detail(int id)
         {
-           return View();
+            CinemaDetailViewModel viewModel = CinemaService.GetCinema(id);
+            ViewData["Title"] = viewModel.Titolo;
+            return View(viewModel);
         }
     }
 }

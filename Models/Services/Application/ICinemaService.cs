@@ -9,5 +9,6 @@ namespace DatabaseFilm.Models.Services.Application
     public interface ICinemaService
     {
         List<CinemaViewModel> GetCinemas();
+        CinemaDetailViewModel GetCinema(int id);
     }
 }
